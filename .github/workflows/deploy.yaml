@@ -39,7 +39,7 @@ jobs:
       - name: Get artifact
         uses: actions/download-artifact@v1
         with:
-          name:demo_upload_to_s3
+          name: demo_upload_to_s3
       # Set the credentials from repository settings/secrets
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
